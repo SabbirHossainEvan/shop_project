@@ -1513,6 +1513,7 @@
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.10);
     padding: 20px;
+    margin-left: 40px;
 }
 
 .casual_main {
@@ -1520,7 +1521,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 40px;
-    margin-left: 40px;  
+    margin-left: 60px;  
 }
 
 .casual_side_fliter_text {
@@ -1596,6 +1597,7 @@
 .casual_side_colors {
     margin-top: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    margin-bottom: 20px;
 }
 
 .casual_side_colors svg {
@@ -1609,6 +1611,76 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.casual_side_size {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.casual_side_size ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-decoration: none;
+    padding-left: 0rem;
+}
+
+.casual_side_size li {
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.10) !important;
+    padding: 5px 5px;
+    border-radius: 18px;
+    text-align: center;
+    background: #F0F0F0;
+    margin: 4px;
+    
+}
+
+.casual_side_style {
+    margin-top: 20px;
+}
+
+.casual_side_style_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.casual_side_style ul {
+    text-decoration: none;
+    padding-left: 0rem;
+    margin-bottom: 20px;
+}
+
+.casual_side_style li {
+    display: flex;
+    justify-content: space-between !important;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.casual_side_style a {
+    text-decoration: none;
+    color: #000;
+}
+
+.casual_side_style_text h2 {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.casual_side_style button {
+    display: block;
+    margin: auto;
+    padding: 10px 86px;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62px;
+    background: #000;
+    color: #F0F0F0;
 }
  /* <!-- casual section end --> */
   /* on sale html */
