@@ -1500,6 +1500,9 @@
 
   /* on sale html */
  /* <!-- casual section start --> */
+#casual_section {
+    margin-top: 30px;
+} 
 .casual_content {
     display: flex;
     width: 100%;
@@ -1507,6 +1510,9 @@
 
 .casual_side {
     width: 25%;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 20px;
 }
 
 .casual_main {
@@ -1514,6 +1520,95 @@
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 40px;
+    margin-left: 40px;  
+}
+
+.casual_side_fliter_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.casual_side_fliter_text h1 {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.casual_side_fliter ul {
+    list-style: none;
+    padding-left: 0rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.casual_side_fliter li {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 15px;
+}
+
+.casual_side_fliter a {
+    text-decoration: none;
+    color: #000;
+}
+
+.casual_side_price {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.casual_side_price svg {
+    text-align: center;
+}
+
+.casual_side_price_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.casual_side_price_text h2 {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.casual_side_pricetag {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.casual_side_pricetag span {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.casual_side_colors {
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.casual_side_colors svg {
+    margin: 7px;  
+}
+
+.casual_side_colors_text h2 {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
  /* <!-- casual section end --> */
   /* on sale html */
