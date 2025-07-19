@@ -1497,3 +1497,24 @@
 
   /* <!-- rating product section end --> */
 
+
+  /* on sale html */
+ /* <!-- casual section start --> */
+.casual_content {
+    display: flex;
+    width: 100%;
+}
+
+.casual_side {
+    width: 25%;
+}
+
+.casual_main {
+    width: 65%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+}
+ /* <!-- casual section end --> */
+  /* on sale html */
+
