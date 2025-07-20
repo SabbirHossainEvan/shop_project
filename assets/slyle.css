@@ -1726,3 +1726,283 @@
  /* <!-- casual section end --> */
   /* on sale html */
 
+
+  /* new arrival html */
+  /* <!-- cart section start --> */
+#cart_section {
+    margin-top: 20px;
+}
+
+#cart_section h1 {
+    color: #000;
+    font-family: "Integral CF";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cart_area {
+    display: flex;
+    width: 100%;
+}
+
+.cart_left {
+    width: 70%;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    margin: 10px;
+}
+
+.cart_content {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.cart_img {
+    display: flex;
+}
+
+.cart_img img {
+    width: 200px;
+    height: 187px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.cart_info {
+    margin-left: 20px;
+}
+
+.cart_info h2 {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.cart_info p {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cart_info h3 {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cart_svg {
+    display: block;
+    align-items: end;
+}
+
+.cart_btn {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 130px;
+}
+
+.cart_btn button {
+    display: flex;
+    padding: 4px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 22px;
+    background: #F0F0F0;
+    border: none;
+}
+
+.cart_btn p {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.cart_rigth {
+    width: 30%;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    margin: 10px;
+}
+
+.cart_rigth h2 {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.cart_rigth ul {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0rem;
+}
+
+
+.cart_rigth li {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.cart_rigth a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cart_form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.cart_form button {
+    display: flex;
+    width: 119px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border: none;
+    border-radius: 62px;
+    background: #000;
+    color: #F0F0F0;
+}
+
+.cart_form input {
+    display: flex;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+    border-radius: 62px;
+    background: #F0F0F0;
+    border: none;
+}
+
+.cart_btn_svg {
+    display: block;
+    margin: auto;
+padding: 16px 84px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+flex-shrink: 0;
+align-self: stretch;
+border-radius: 62px;
+background: #000;
+    color: #F0F0F0;
+    border: none;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #cart_section h1 {
+        color: #000;
+    font-family: "Integral CF";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    }
+    .cart_area {
+        display: block;
+        width: 100%;
+    }
+
+    .cart_left {
+        width: 100%;
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        padding: 0px;
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .cart_img img {
+        width: 120px;
+        height: 120px;
+        flex-shrink: 0;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    } 
+    
+    .cart_svg {
+        display: none;
+    }
+    
+    .cart_info {
+        margin-left: 10px;
+    }
+
+
+.cart_content {
+    display: flex;
+    margin: 0px;
+}
+
+.cart_info h2 {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.cart_info p {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cart_info h3 {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+    .cart_rigth {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    margin: 0px;
+}
+}
+  /* <!-- cart section end --> */
+  /* new arrival html */
